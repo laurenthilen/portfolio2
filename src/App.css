@@ -145,6 +145,7 @@ html {
   text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;
+  margin-top: 25px;
   border: 4px solid pink;
 }
 
@@ -162,22 +163,24 @@ p {
 
 /* project apps */
 .projects-container {
-	max-width: 90%;
+	margin: 0 5%;
 	display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 20px auto 50px auto;
-  border: 4px solid green;
 }
 
 .project {
-  margin: 10px;
-  border: 4px solid red;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-img {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   background-size: cover;
   border-radius: 25px;
 }
@@ -190,7 +193,6 @@ p {
   align-items: center;
   position: fixed; 
   bottom: 0px; 
-  border: 4px solid blue;
 }
 
 .blurr-box {

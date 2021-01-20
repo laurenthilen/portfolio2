@@ -8,6 +8,16 @@
         "websiteURL": "https://pintreach.netlify.app/",
         "repo": "https://github.com/laurenemick/pintreach-context/tree/master/client"
     },
+    
+    {
+        "name": "Pintreach",
+        "imgURL": "https://github.com/laurenemick/portfolio/blob/master/src/images/pintreach.png?raw=true",
+        "description": "Pintreach is an article sharing application and research tool designed to enable saving and discovery of information on the internet. Solo project.",
+        "about": "",
+        "languages": "React | Java | Spring | PostgreSQL | Context API | Material UI | Axios | Yup",
+        "websiteURL": "https://pintreach.netlify.app/",
+        "repo": "https://github.com/laurenemick/pintreach-context/tree/master/client"
+    },
 
     {
         "name": "Water Me",
