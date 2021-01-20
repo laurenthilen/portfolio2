@@ -1,21 +1,17 @@
+import { Route } from "react-router-dom";
 import projects from "./data/projects";
+import Projects from "./components/Projects";
+import Project from "./components/Project";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <div className="projects-container">
-        {
-          projects.map(project => {
-            return (
-              <div className="project">
-                <img className="project-img" src={project.imgURL} alt={project.name} />
-                <p>{project.name}</p>
-              </div>
-            )
-          })
-        }
-      </div>
+      <Route exact path="/">
+        <Projects projects={projects} />
+      </Route>
+      <Route path="/projects/:id" component={Project} />
 
       <div className="blurr-box-container">
         <footer className="blurr-box">

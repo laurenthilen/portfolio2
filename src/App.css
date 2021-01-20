@@ -146,7 +146,6 @@ html {
   color: white;
   font-family: "Roboto", sans-serif;
   margin-top: 25px;
-  border: 4px solid pink;
 }
 
 h1 {
@@ -161,7 +160,7 @@ p {
   font-weight: bold;
 }
 
-/* project apps */
+/* projects */
 .projects-container {
 	margin: 0 5%;
 	display: flex;
@@ -184,6 +183,9 @@ p {
   background-size: cover;
   border-radius: 25px;
 }
+
+/* project */
+
 
 /* footer */
 .blurr-box-container {
