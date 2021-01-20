@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Pintreach",
+        "imgURL": "https://github.com/laurenemick/portfolio/blob/master/src/images/pintreach.png?raw=true",
+        "description": "Pintreach is an article sharing application and research tool designed to enable saving and discovery of information on the internet. Solo project.",
+        "about": "",
+        "languages": "React | Java | Spring | PostgreSQL | Context API | Material UI | Axios | Yup",
+        "websiteURL": "https://pintreach.netlify.app/",
+        "repo": "https://github.com/laurenemick/pintreach-context/tree/master/client"
+    },
+
+    {
+        "name": "Water Me",
+        "imgURL": "https://github.com/laurenemick/portfolio/blob/master/src/images/waterme2.png?raw=true",
+        "description": "With an easy to use interface for creating a plant watering schedule tailored to each individual plant, Water Me will remind users when it's time to feed their plants.",
+        "about": "",
+        "languages": "React | Java | Spring | PostgreSQL | Material UI | Axios | Yup",
+        "websiteURL": "https://water-my-plants-liart.vercel.app",
+        "repo": "https://github.com/laurenemick/Front-End"
+    },
+    
+    {
+        "name": "Game of Life",
+        "imgURL": "https://github.com/laurenemick/portfolio/blob/master/src/images/gameoflife.png?raw=true",
+        "description": "React js game that allows the user to create their own grid formations or choose a preset formation. There are some rules which alter the state of the cells. By pressing start, you can see how your formation evolves.",
+        "about": "The Game Of Life is a cellular automaton which was created by John Conway in 1970. The game is considered a zero-player game, which means the evolution of the game is determined by the initial state and does not need any further input. Since this game allows changes to the state of the game based on pre-defined rules it is considered a Turing machine.",
+        "languages": "React",
+        "websiteURL": "https://game-of-life-beryl.vercel.app/",
+        "repo": "https://github.com/laurenemick/game-of-life"
+    }
+]
