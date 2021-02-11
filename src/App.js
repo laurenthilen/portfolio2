@@ -53,16 +53,19 @@ function App() {
                   horizontal: "left",
                 }}
               >
-                <div>
-                  <img className="profileImage" src="https://avatars.githubusercontent.com/u/64444915?s=460&u=a9c3af2aa4f156e00677aef2e7fd2b210898c311&v=4" alt="profile" />
+                <div style={{ width:"300px" }}>
+                  <img className="profileImage" src="https://avatars.githubusercontent.com/u/64444915?s=460&u=a9c3af2aa4f156e00677aef2e7fd2b210898c311&v=4" alt="profile" width="300px" height="300px" />
                   <div style={{ margin:"10px"}}>
                     <h2 style={{paddingBottom:"8px"}}>Lauren Emick</h2>
-                    <p style={{paddingBottom:"8px"}}>Email: <a href="mailto: laurenemick6@gmail.com">laurenemick6@gmail.com</a></p>
-                    <p>Phone: 206.445.8300</p>
+                    <p style={{paddingBottom:"8px"}}>
+                      <a href="mailto: laurenemick6@gmail.com">laurenemick6@gmail.com</a>
+                    </p>
+                    <p>206.445.8300</p>
                   </div>
                 </div>
               </Popover>
             </div>
+
             <a className="icon" href="https://www.linkedin.com/in/laurenemick/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faLinkedinIn} size="3x" />
             </a>
