@@ -6,16 +6,16 @@ const Projects = () => {
 
     return (
         <div className="projects-container">
-        {
-            projects.map(project => (
-                <Link key={project.id} to={`/projects/${project.id}`}>
-                    <div className="project">
-                        <img className="project-img" src={project.imgURL} alt={project.name} />
-                        <p>{project.name}</p>
-                    </div>
-                </Link>
-            ))
-        }
+            {
+                projects.map(project => (
+                    <Link className="project-link" key={project.id} to={`/projects/${project.id}`} target="_blank">
+                        <div className="project">
+                            <img className="project-img" src={project.imgURL} alt={project.name} />
+                            <p className="project-name">{project.name}</p>
+                        </div>
+                    </Link>
+                ))
+            }
         </div>
     );
 };
