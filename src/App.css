@@ -142,7 +142,6 @@ html {
 }
 
 .App {
-  text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;
 }
@@ -167,6 +166,16 @@ p {
   margin-bottom: 15px;
 } */
 
+
+/* project */
+.project {
+  margin: 5%;
+  padding: 5%;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+}
+
 /* projects */
 .projects-container {
 	margin: 2% 5%;
@@ -183,7 +192,7 @@ p {
   color: fuchsia;
 }
 
-.project {
+.project-icon {
   width: 200px;
   height: 200px;
   display: flex;
