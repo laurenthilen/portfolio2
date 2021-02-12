@@ -13,7 +13,7 @@
     {
         "id": 3,
         "name": "Water Me",
-        "imgURL": "https://github.com/laurenemick/portfolio/blob/master/src/images/waterme2.png?raw=true",
+        "imgURL": "https://github.com/laurenemick/portfolio/blob/master/src/images/waterme.png?raw=true",
         "description": "With an easy to use interface for creating a plant watering schedule tailored to each individual plant, Water Me will remind users when it's time to feed their plants.",
         "about": "",
         "languages": "React | Java | Spring | PostgreSQL | Material UI | Axios | Yup",
