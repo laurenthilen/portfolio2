@@ -303,6 +303,11 @@ p {
   font-weight: bold;
 }
 
+@media(max-width: 600px) {
+  .projects-container {
+    margin-bottom: 100px;
+  }
+}
 
 /* footer */
 .blurr-box-container {
