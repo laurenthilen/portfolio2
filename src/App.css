@@ -143,11 +143,11 @@ html {
 
 body {
   width: 100wh;
-  background: linear-gradient(-45deg, #022b3a, #1f7a8c, #67b8c7, #bfdbf7);
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 15s ease infinite;
-  -moz-animation: Gradient 15s ease infinite;
-  animation: Gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #022b3a, #1f7a8c, #67b8c7);
+  background-size: 450% 450%;
+  -webkit-animation: Gradient 12s ease infinite;
+  -moz-animation: Gradient 12s ease infinite;
+  animation: Gradient 12s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -287,6 +287,8 @@ p {
 }
 
 .project-icon {
+  width: 150px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -294,8 +296,10 @@ p {
 }
 
 .projects-img {
-  width: 150px;
-  height: 150px;
+  position: cover;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
   border-radius: 25px;
 }
 
@@ -309,17 +313,12 @@ p {
   h2 {
     font-size: 1.8em;
   }
-  .project-icon {
-    width: 150px;
-    height: 150px;
-    margin: 6% 0;
+  .projects-img {
+    width: 80px;
+    height: 80px;
   }
   .projects-container {
-    margin: 2% 0;
-  }
-  .projects-img {
-    width: 100px;
-    height: 100px;
+    margin: 3%;
   }
   .project-link {
     padding: 0;
