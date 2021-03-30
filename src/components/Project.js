@@ -14,7 +14,7 @@ const Project = () => {
         <div>
             {
                 <Link className="project-link" to={"/"}>
-                    <FontAwesomeIcon style={{ margin:"30px 0 0 30px" }} icon={faChevronLeft} size="4x" />
+                    <FontAwesomeIcon style={{ margin:"30px 0 0 30px" }} icon={faChevronLeft} size="2x" />
                 </Link>
             }
             <div className="project-container">
@@ -24,6 +24,7 @@ const Project = () => {
                             <img className="project-img" src={project.imgURL} alt={project.name} />
                             <div className="project-content">
                                 <h2>{project.name}</h2>
+                                <p>{project.languages}</p>
                                 <p>{project.description}</p>
                                 <div className="project-btns">
                                     <Button href={project.websiteURL} target="_blank" rel="noreferrer">

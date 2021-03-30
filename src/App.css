@@ -192,15 +192,16 @@ body {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3.2em;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2.8em;
 }
 
 p {
-  font-size: 1.8em;
+  font-size: 1.6em;
+  line-height: 1.6;
 }
 
 
@@ -254,6 +255,9 @@ p {
 }
 
 @media(max-width: 600px) {
+  p {
+    font-size: 1.2em;
+  }
   .project {
     margin: 5%;
     width: 300px;
@@ -267,7 +271,7 @@ p {
 
 /* projects */
 .projects-container {
-	margin: 2% 5%;
+	margin: 2% 10%;
 	display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -276,14 +280,13 @@ p {
 .project-link {
   text-decoration: none;
   color: white;
+  padding: 2%;
 }
 .project-link:hover {
   color: fuchsia;
 }
 
 .project-icon {
-  width: 250px;
-  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -291,9 +294,8 @@ p {
 }
 
 .projects-img {
-  width: 240px;
-  height: 200px;
-  background-size: cover;
+  width: 150px;
+  height: 150px;
   border-radius: 25px;
 }
 
@@ -304,8 +306,23 @@ p {
 }
 
 @media(max-width: 600px) {
+  h2 {
+    font-size: 1.8em;
+  }
+  .project-icon {
+    width: 150px;
+    height: 150px;
+    margin: 6% 0;
+  }
   .projects-container {
-    margin-bottom: 100px;
+    margin: 2% 0;
+  }
+  .projects-img {
+    width: 100px;
+    height: 100px;
+  }
+  .project-link {
+    padding: 0;
   }
 }
 

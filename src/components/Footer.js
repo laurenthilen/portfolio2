@@ -59,7 +59,7 @@ const Footer = () => {
                 <a className="icon" href="https://github.com/laurenemick" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faGithub} size="3x" /> 
                 </a>
-                <a className="icon" href="https://docs.google.com/document/d/1xbm-TAFPL4u8C0MKFJxBRrO503JLa_g_-k700thaw-U/edit?usp=sharing" target="_blank" rel="noreferrer">
+                <a className="icon" href="https://app.enhancv.com/share/3c5995c6?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faFile} size="3x" /> 
                 </a>
             </div>
